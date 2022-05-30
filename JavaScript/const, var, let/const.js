@@ -14,7 +14,7 @@ console.log(x);   //4
 y = x * y;
 console.log(y);   //20
 
-//예외 객체의 프로퍼티나 배열의 요소들에 const 의 형태에서 값이 할당되는 경우는 가불가능
+//예외 객체의 프로퍼티나 배열의 요소들에 const 의 형태에서 값이 할당되는 경우는 가능
 const x1 = {name: 'Codeit'};
 x1.birth = 2017;
 
