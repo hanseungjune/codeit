@@ -46,7 +46,7 @@ members2.unshift('NiceCodeit');
 console.log(members2);
 
 // 배열의 마지막 요소를 추가: push()
-members2.push();
+members2.push('NiceCodeit');
 console.log(members2);
 
 //배열4

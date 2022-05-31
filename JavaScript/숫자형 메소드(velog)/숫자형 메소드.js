@@ -1,11 +1,11 @@
 // Number
-let myNumber2 = 0.3591;
+let myNumber2 = 0.359132544325;
 
 // toFixed(0 ~ 100) : 수만큼 보여줄 자릿수를 지정
 console.log(Number(myNumber2.toFixed(4)));
 
 // Number
-let myNumber = 0.3591;
+let myNumber = 0.359132452435;
 
 // toFixed(0 ~ 100) : 수만큼 보여줄 자릿수를 지정
 console.log(Number(myNumber.toFixed(4)));

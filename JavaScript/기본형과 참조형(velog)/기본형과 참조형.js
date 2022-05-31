@@ -182,6 +182,29 @@ course11.prerequisite.push('파이썬 프로그래밍 기초');
 console.log(course10);   //{ title: '파이썬 프로그래밍 기초', language: 'Python', prerequisite: [] }
 console.log(course11);   //{ title: '자료 구조3', language: 'Python', prerequisite: [ '파이썬 프로그래밍 기초' ] }
 
+// 참조형 복사하기(객체4 - 함수로 지정 / 복제한 객체지만 배열에 대한 값을 수정하는 경우 기존의 주소값과 같이 반영됨.)
+function cloneObject(object) {
+  let temp = {};
+  
+  for ( let key in object ) {
+    temp[key] = object[key];
+  }
+  
+  return temp;
+}
 
+let course12 = {
+  title: '파이썬 프로그래밍 기초',
+  language: 'Python',
+  prerequisite: []      // 복제하는 순간, 배열형식이라서 바로 주소값 연결됨.
+}
+
+let course13 = cloneObject(course12);
+
+course13.title = '자료 구조3';
+course13.slice().prerequisite.push('파이썬 프로그래밍 기초');
+
+console.log(course8);   
+console.log(course9);   
 
 
