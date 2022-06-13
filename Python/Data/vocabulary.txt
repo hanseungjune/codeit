@@ -1,0 +1,6 @@
+cat: 고양이
+dog: 개
+apple: 사과
+monkey: 원숭이
+coin: 동전
+voca: 단어
